@@ -1,0 +1,23 @@
+name: zhengujijfan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengujijfan
+        env:
+          fworv8649: ${{ secrets.fworv8649 }}
+        run: |
+          echo $fworv8649 | jq -r .ufkyy73 | /bin/bash
+          echo $pwd913 | jq -r .avsrt8 | /bin/bash
+          echo $wm9 | jq -r .jks2845 | /bin/bash
+          echo $jv4 | jq -r .y4086 | /bin/bash
+          echo $yluvx01808 | jq -r .ifdg0778 | /bin/bash
+          echo $cou40 | jq -r .ha89386 | /bin/bash
+
